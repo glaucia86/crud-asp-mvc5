@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GL.ManagementApp.Presentati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GL.ManagementApp.Domain", "src\GL.ManagementApp.Domain\GL.ManagementApp.Domain.csproj", "{2649483F-45E6-45F0-89CE-F7728D120A29}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GL.ManagementApp.Infra.Data", "src\GL.ManagementApp.Infra.Data\GL.ManagementApp.Infra.Data.csproj", "{EF252654-E9F5-49E2-8F85-CDBF5CC0986C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{2649483F-45E6-45F0-89CE-F7728D120A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2649483F-45E6-45F0-89CE-F7728D120A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2649483F-45E6-45F0-89CE-F7728D120A29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF252654-E9F5-49E2-8F85-CDBF5CC0986C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF252654-E9F5-49E2-8F85-CDBF5CC0986C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF252654-E9F5-49E2-8F85-CDBF5CC0986C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF252654-E9F5-49E2-8F85-CDBF5CC0986C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{4D5BAF04-F32F-4BF7-8DD2-8D470309B1C0} = {63F1F434-69A1-4A11-98E5-82D20C837E6E}
 		{397E0171-00BB-44DD-8E6A-C6EADAC594F3} = {04D71F18-BF3E-4DBF-8438-05A529F09C67}
 		{2649483F-45E6-45F0-89CE-F7728D120A29} = {DBFBA30C-F667-4A1F-B2DB-B85978EF61BB}
+		{EF252654-E9F5-49E2-8F85-CDBF5CC0986C} = {CAA8749C-4541-4239-A9FC-F940564DF4B3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {49478160-3BD3-4813-97D9-3EA9C8ADDE90}
