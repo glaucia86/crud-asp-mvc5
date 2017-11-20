@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace GL.ManagementApp.Domain.Entities
 {
@@ -48,6 +49,11 @@ namespace GL.ManagementApp.Domain.Entities
         /// Cargo Ocupado
         /// </summary>
         public string Occupation { get; set; }
+
+        /// <summary>
+        /// Relacionamento de Employee para Address (1 para n)
+        /// </summary>
+        public ICollection<Address> Addresses{ get; set; }
 
     }
 }

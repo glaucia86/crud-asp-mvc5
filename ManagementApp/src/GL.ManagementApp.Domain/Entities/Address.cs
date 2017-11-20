@@ -43,5 +43,15 @@ namespace GL.ManagementApp.Domain.Entities
         /// País
         /// </summary>
         public string Country { get; set; }
+
+        /// <summary>
+        /// Chave Estrangeira (FK)
+        /// </summary>
+        public Guid EmployeeId { get; set; }
+
+        /// <summary>
+        /// Relacionamento de Address com Employee (1 para n)
+        /// </summary>
+        public Employee Employee { get; set; }
     }
 }

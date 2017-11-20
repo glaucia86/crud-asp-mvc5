@@ -61,6 +61,69 @@ namespace GL.ManagementApp.Domain.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Address Complement.
+        /// </summary>
+        public static string Address_AddressComplement {
+            get {
+                return ResourceManager.GetString("Address_AddressComplement", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to City.
+        /// </summary>
+        public static string Address_City {
+            get {
+                return ResourceManager.GetString("Address_City", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Country.
+        /// </summary>
+        public static string Address_Country {
+            get {
+                return ResourceManager.GetString("Address_Country", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Number.
+        /// </summary>
+        public static string Address_Number {
+            get {
+                return ResourceManager.GetString("Address_Number", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Public Place.
+        /// </summary>
+        public static string Address_PublicPlace {
+            get {
+                return ResourceManager.GetString("Address_PublicPlace", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to State.
+        /// </summary>
+        public static string Address_State {
+            get {
+                return ResourceManager.GetString("Address_State", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Zip Code.
+        /// </summary>
+        public static string Address_ZipCode {
+            get {
+                return ResourceManager.GetString("Address_ZipCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Active.
         /// </summary>
         public static string Employee_Active {
