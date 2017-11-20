@@ -5,6 +5,14 @@ namespace GL.ManagementApp.Domain.Entities
     public class Address
     {
         /// <summary>
+        /// Gerando um novo guid todas as vezes que gerar um novo endereço
+        /// </summary>
+        public Address()
+        {
+            AddressId = Guid.NewGuid();
+        }
+
+        /// <summary>
         /// Id do Endereço
         /// </summary>
         public Guid AddressId { get; set; }
@@ -52,6 +60,6 @@ namespace GL.ManagementApp.Domain.Entities
         /// <summary>
         /// Relacionamento de Address com Employee (1 para n)
         /// </summary>
-        public Employee Employee { get; set; }
+        public virtual Employee Employee { get; set; }
     }
 }

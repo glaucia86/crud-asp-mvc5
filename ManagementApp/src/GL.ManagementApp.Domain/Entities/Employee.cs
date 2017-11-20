@@ -6,6 +6,14 @@ namespace GL.ManagementApp.Domain.Entities
     public class Employee
     {
         /// <summary>
+        /// Gerando um novo guid todas as vezes que gerar um novo funcionário
+        /// </summary>
+        public Employee()
+        {
+            EmployeeId = Guid.NewGuid();
+        }
+
+        /// <summary>
         /// Id do Empregado
         /// </summary>
         public Guid EmployeeId { get; set; }
@@ -53,7 +61,7 @@ namespace GL.ManagementApp.Domain.Entities
         /// <summary>
         /// Relacionamento de Employee para Address (1 para n)
         /// </summary>
-        public ICollection<Address> Addresses{ get; set; }
+        public virtual ICollection<Address> Addresses{ get; set; }
 
     }
 }
